@@ -26,4 +26,13 @@ public class VirtualPet {
     public void tick() {
         hunger += 2;
     }
+
+    public String status(){
+        return name + " | Hunger: " + hunger ;
+    }
+    @Override
+    public String toString() {
+        return name + " | Hunger: " + hunger ;
+
+    }
 }
