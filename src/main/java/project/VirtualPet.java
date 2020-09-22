@@ -18,12 +18,12 @@ public class VirtualPet {
 
     public void eat() {
         hunger -= 10;
-        if(hunger<0){
-            hunger =0;
+        if (hunger < 0) {
+            hunger = 0;
         }
     }
 
     public void tick() {
-        hunger +=2;
+        hunger += 2;
     }
 }
