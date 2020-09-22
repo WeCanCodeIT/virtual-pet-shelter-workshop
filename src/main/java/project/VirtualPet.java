@@ -1,15 +1,15 @@
 package project;
 
 public class VirtualPet {
-    private String petName;
+    private String name;
     private int hunger = 10;
 
-    public VirtualPet(String petName) {
-        this.petName = petName;
+    public VirtualPet(String name) {
+        this.name = name;
     }
 
-    public String getPetName() {
-        return petName;
+    public String getName() {
+        return name;
     }
 
     public int getHunger() {
